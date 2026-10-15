@@ -1,0 +1,17 @@
+{
+  "name": "KONG 회원관리",
+  "short_name": "KONG 회원관리",
+  "description": "OT 체형 평가 · 운동 일지 · 근육 사전",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#F3F0EA",
+  "theme_color": "#1F2B26",
+  "lang": "ko",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}
