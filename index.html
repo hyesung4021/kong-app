@@ -1,0 +1,8 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>KONG 회원관리</title><link rel="manifest" href="manifest.json"><link rel="apple-touch-icon" href="apple-touch-icon.png"><meta name="theme-color" content="#1F2B26"></head>
+<body style="margin:0;background:#1F2B26;color:#C9A45C;font:700 20px sans-serif;display:grid;place-items:center;height:100vh">KONG
+<script>
+(async()=>{let n=8,k='kongV';try{n=Math.max(n,+localStorage[k]||0)}catch(e){}
+let ok=n;for(let i=n;i<n+50;i++){try{const r=await fetch('kong-v'+i+'.html',{method:'HEAD',cache:'no-store'});if(r.ok)ok=i;else if(i>n)break}catch(e){break}}
+try{localStorage[k]=ok}catch(e){}
+const t='kong-v'+ok+'.html';if(!location.pathname.endsWith(t))location.replace(t+location.search+location.hash)})();
+</script></body></html>
